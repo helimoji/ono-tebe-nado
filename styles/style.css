@@ -89,7 +89,7 @@ body {
 }
 
 .accent-span {
-  display: block; 
+  display: block;
   line-height: 100%;
 }
 
@@ -100,7 +100,6 @@ body {
 .text-center {
   text-align: center;
   margin: 20px 0;
- 
 }
 
 .text-right {
