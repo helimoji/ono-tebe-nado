@@ -194,7 +194,6 @@ text-decoration: none;
   flex-wrap: wrap;
   justify-content: space-between;
   position: relative;
-  background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
