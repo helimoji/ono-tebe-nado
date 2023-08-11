@@ -44,7 +44,7 @@ body {
   width: 240px;
   justify-self: end;
   line-height: 1.35;
-text-decoration: none;
+  text-decoration: none;
   font-style: normal;
   color: #000;
   font-family: Raleway;
@@ -55,9 +55,7 @@ text-decoration: none;
 .underline-add {
   text-decoration: underline;
   text-underline-offset: 4px;
-  
 }
-
 
 .cover {
   position: relative;
@@ -91,7 +89,8 @@ text-decoration: none;
 }
 
 .accent-span {
-  display: block;
+  display: block; 
+  line-height: 100%;
 }
 
 .text-left {
@@ -101,17 +100,19 @@ text-decoration: none;
 .text-center {
   text-align: center;
   margin: 20px 0;
-  line-height: 100%;
+ 
 }
 
 .text-right {
   text-align: right;
-  line-height: 100%;
-  margin-right: -30px;
 }
 
 .letter-space {
   letter-spacing: 60px;
+}
+
+.no-space-letter {
+  letter-spacing: 0;
 }
 
 .cover__description {
@@ -163,7 +164,7 @@ text-decoration: none;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding: 0px 1179px 27px 40px;
+  margin: 0px auto 27px 40px;
 }
 
 .lots__card-list {
@@ -246,7 +247,6 @@ text-decoration: none;
   z-index: 1;
 }
 
-
 .lots__look-more-link {
   display: block;
   text-decoration: underline;
@@ -257,7 +257,6 @@ text-decoration: none;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-
 }
 
 .about__column {
@@ -286,7 +285,6 @@ text-decoration: none;
 .content__text {
   display: block;
   width: 100%;
-
 }
 
 .about__title {
